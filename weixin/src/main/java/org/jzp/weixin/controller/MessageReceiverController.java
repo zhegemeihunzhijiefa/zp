@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 // 各自写代码的时候，把/kemao_1改为【/拼音名】，用于后面作为路径反向代理的时候区分不同人的代码
 // @RequestMapping表示的含义：URL跟控制器的关系映射
-@RequestMapping("/jzp/weixin/receiver")
+@RequestMapping("/weinxin/weixin/receiver")
 public class MessageReceiverController {
 
 	private static final Logger LOG = LoggerFactory.getLogger(MessageReceiverController.class);
