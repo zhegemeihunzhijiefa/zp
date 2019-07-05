@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/kemao_1/menu")
+@RequestMapping("/jzp/menu")
 public class SelfMenuController {
 
 	@Autowired

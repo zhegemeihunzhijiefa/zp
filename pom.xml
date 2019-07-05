@@ -31,6 +31,5 @@
 		<module>unsubscribe</module>
 		<module>self_menu</module>
 		<module>library</module>
-		<module>self_menu</module>
 	</modules>
 </project>

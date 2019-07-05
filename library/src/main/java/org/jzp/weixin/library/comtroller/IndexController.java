@@ -28,6 +28,6 @@ public class IndexController {
 		Page<Book> page = this.libraryService.search(keyword, pageNumber);
 		model.addAttribute("page", page);
 		
-		return "/WEB-INF/views/jzp/index.jsp";
+		return "/WEB-INF/views/library/index.jsp";
 	}
 }
